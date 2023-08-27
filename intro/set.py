@@ -7,7 +7,7 @@ for character in string:
 
 print(occurence, '\n')
 
-if 'a' in occurence:
+if 'a' in occurence:  # O(1)
     print(f'{string} contains "a"')
 else:
     print(f'{string} does not contain "a"')
