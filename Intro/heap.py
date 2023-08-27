@@ -1,4 +1,6 @@
 import heapq as hq
+# this implements min heap using a simple python list and provides O(lgn) push and pop operations.
+# can also be used as a priority queue
 
 my_heap = [0, 0, 2, 4, -4, 5, 10, -1]
 print("orginal list", my_heap)
