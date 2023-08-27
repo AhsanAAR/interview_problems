@@ -15,7 +15,7 @@ print(f"Charlie's wallet contains {wallet_dict['Charlie']} dollars")
 for key in wallet_dict:  # same as wallet_dict.keys()
     wallet_dict[key] += 1
 
-print("modified wallet", wallet_dict)
+print("\nmodified incremented wallet", wallet_dict)
 
 print('\n', 'looping using values')
 total_money = 0
@@ -26,4 +26,8 @@ print(f"we have {total_money} dollars in wallet")
 
 print('\n', 'looping using items')
 for key, value in wallet_dict.items():
-    print(f"{key} has {value} dollars")
+    print(f"{key} has {value} dollars now")
+
+del wallet_dict['Alice']  # O(1) average
+
+print('\nmodfied dict', wallet_dict)
