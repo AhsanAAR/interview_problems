@@ -1,4 +1,4 @@
-# Array (Python list)
+# Python list (array)
 array = [5, 8, 1, -9, 4, 2]
 print('original array', array, '\n')
 
@@ -24,10 +24,7 @@ for i in range(len(array)):
 # modified array
 print('modified array', array)
 
-
 # LinkedList (Custom)
-# Stack (Python list)
-# Queue (Python dequeue)
 # Heap/PriorityQueue (Python heapq)
 # Hashmap (Python dict and defaultdict)
 # Set (Python set)
