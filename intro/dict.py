@@ -1,5 +1,5 @@
-# python dictionary. Stores key value pairs. Provides O(1) average access times using hashmaps.
-# similar to using indexes in list, we can use key here. Key can be anythingß
+# python dictionary implemented by hash table. Stores key value pairs. Provides O(1) average access times.
+# similar to using indexes in list, we can use key here. Key can be anything
 wallet_dict = {
     'Alice': 2,
     'Bob': 4,
