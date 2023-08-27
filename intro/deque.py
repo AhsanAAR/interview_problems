@@ -19,8 +19,8 @@ print('pop left', dq, '\n')
 
 # deque is used to implement stacks and queues
 
-# FIFO (first in first out) is implemented here
-print("Stack FIFO: ")
+# LIFO (last in first out) is implemented here
+print("Stack LIFO: ")
 stack = deque()
 
 stack.append(1)
@@ -32,8 +32,8 @@ while len(stack) > 0:
     print(element)
 print('\n')
 
-# LIFO (last in first out) is implemented here
-print("Queue LIFO: ")
+# FIFO (first in first out) is implemented here
+print("Queue FIFO: ")
 queue = deque()
 
 queue.append(1)
