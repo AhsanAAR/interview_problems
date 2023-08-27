@@ -1,6 +1,0 @@
-Pre requisites for the course:
--Complexities: O(1), O(log n), O(n), O(n log n), O(n^2)
--Data Structures: Array(List), Tuple, Set, Dict, DefaultDict, Stack, Queue, PriorityQueue, Linked Lists, Tree
--Tree Traversal: DFS, BFS
--Programming in Python
--Recursion basics
