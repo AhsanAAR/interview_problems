@@ -23,9 +23,3 @@ for i in range(len(array)):
 
 # modified array
 print('modified array', array)
-
-# LinkedList (Custom)
-# Heap/PriorityQueue (Python heapq)
-# Hashmap (Python dict and defaultdict)
-# Set (Python set)
-# Binary Tree (Custom)
