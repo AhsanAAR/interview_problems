@@ -1,6 +1,6 @@
 occurence = set()
 
-string = "Good stuff"
+string = "Good a stuff"
 
 for character in string:
     occurence.add(character)
