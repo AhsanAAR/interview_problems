@@ -11,7 +11,7 @@ def print_tree(root: Tree, level: int = 0):
     
     return '\t'*level + str(root.data) + "\n" + print_tree(root.right, level+1) + print_tree(root.left, level+1)
 
-def create_tree(arr: list[int], i: list[int]=[0]):
+def create_tree(arr: list, i: list[int]=[0]):
     j = i[0]
     i[0] += 1
 
@@ -29,8 +29,8 @@ def convert_tree_to_string(root: Tree):
 
     return f"{root.data} " + convert_tree_to_string(root.left) + convert_tree_to_string(root.right)
 
-def convert_str_to_Tree(s):
+def convert_str_to_Tree(s: str):
     arr = s.split()
     return create_tree(arr)
 
-print(print_tree(convert_str_to_Tree('12 1 3 * * 2 * * 2 3 2 * * * *')))
+print(convert_tree_to_string(convert_str_to_Tree('12 1 3 * * 2 * * 2 3 5 * * 2 * * *')))
